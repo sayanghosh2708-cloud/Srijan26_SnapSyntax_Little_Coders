@@ -1,0 +1,200 @@
+body{
+    margin: 10px;
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;              
+    /* justify-content: right;   */
+    height: 70px;
+    background: linear-gradient(90deg, #0f0f0f, #424242, #0f0f0f);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 50px;
+    top: 10px;
+    box-shadow: 5px 5px 10px rgb(101, 101, 101);
+
+    border: 3px solid transparent;
+
+    background-image: 
+        linear-gradient(#0f0f0f, #424242, #0f0f0f),
+        linear-gradient(45deg,
+            rgba(255,0,0,0.6),
+            rgba(255,165,0,0.6),
+            rgba(255,255,0,0.6),
+            rgba(0,255,0,0.6),
+            rgba(0,255,255,0.6),
+            rgba(0,0,255,0.6),
+            rgba(138,43,226,0.6)
+        );
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+.navbar {
+    display: flex;
+    text-align: center;
+    padding-left: 5px;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.nav-links a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.699);
+  text-align: center;
+  border-bottom: 2px solid rgb(244, 146, 146);
+  border-bottom-left-radius:30%;
+  font-size: 20px;
+  padding: 10px;
+ font-family: cursive;
+ 
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.2);  
+    backdrop-filter: blur(5px);            
+    border-radius: 15px;                   
+    padding: 5px 10px;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    width: 300px;   
+}
+/* mainbody */
+
+.mainbody {
+   display: flex;
+   flex-direction: column;   
+   align-items: center;      
+   height: 750px;
+   background-image: url("bg.png");
+   background-size: cover;
+   /* background-color: #79AE6F; */
+   margin: 10px;
+   border-radius: 60px 60px 0px 0px;
+}
+
+.welcome {
+          
+    text-align: center;     
+    color: white;
+}
+
+.welcome h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 5px;       /* remove default top margin */
+    margin-bottom: 1px; 
+    font-family: cursive;
+    
+}
+
+.welcome p {
+    font-size: 28px;
+    color: #101010;
+    margin-top: 0;       /* remove default top margin */
+    margin-bottom: 10px; 
+    font-family: cursive;
+}
+.container_one{
+    display: flex;
+    width: 1800px;
+    height: 230px;
+    margin: 10px;
+    /* border-radius: 60px; */
+    justify-content: center;
+    gap: 22px;
+    padding-bottom: 20px;
+  
+   
+}
+
+.container_two{
+    display: flex;
+    width: 1800px;
+    height: 230px;
+    margin: 10px;
+    border-radius: 60px;
+    justify-content: center;
+    gap: 22px;
+}
+.box{
+    
+    color: #1b1a1a;
+    height: 210px;
+    width: 200px;
+    gap: 1px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    border-bottom-right-radius: 30px ;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+button{
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    border-radius:50px;
+    font-family: cursive;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("button.png");
+    background-size: cover;
+    box-shadow: 1px 1px 2px rgb(23, 23, 23);
+    margin-top: auto;
+    margin-left: auto;
+    opacity: 0.85;
+
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;              
+    justify-content: space-between; 
+    height: 160px;
+     background-image: url("footer.png");
+     background-size: cover;
+    margin: 0px;
+    border-radius:0px 0px 60px 60px;
+}
+.lc{
+    font-size: 35px;
+    color: #ffffff;
+    padding: 0px;
+     font-family: sans-serif;
+}
+.c_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 1500px;
+    color: #d6d6d6;
+    font-size: 25px;
+    font-family: sans-serif;
+    gap: 200px;
+}
